@@ -27,8 +27,8 @@ export const config: Config = {
   phases: [
     {
       duration: 30,
-      arrivalRate: 1,
-      name: 'POC test - 1 user per second'
+      arrivalRate: 2,
+      name: 'POC test - 2 users per second'
     }
   ],
   
