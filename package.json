@@ -1,0 +1,23 @@
+{
+  "name": "poc-artillery-playwright",
+  "version": "1.0.0",
+  "description": "Proof of Concept: Artillery + Playwright Load Testing for SLCM Login",
+  "scripts": {
+    "test": "artillery run --output reports/report.json slcm-login-test.ts"
+  },
+  "keywords": [
+    "artillery",
+    "playwright",
+    "load-testing",
+    "slcm"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "artillery": "^2.0.22",
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.6",
+    "@playwright/test": "^1.40.0",
+    "dotenv": "^16.3.1"
+  }
+}
